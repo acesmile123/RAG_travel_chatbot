@@ -1,6 +1,6 @@
 from selenium import webdriver
 driver = webdriver.Chrome()
-url = "https://vinpearl.com/vi/du-lich-bac-ninh-1-ngay"
+url = "https://2025.vietnam.travel/bac-ninh-diem-den-du-lich-hoi-tu-tinh-hoa-van-hoa/"
 driver.get(url)
 html = driver.page_source
 driver.quit()
@@ -13,8 +13,8 @@ import markdownify
 from langchain.text_splitter import MarkdownHeaderTextSplitter, RecursiveCharacterTextSplitter
 import json
 
-HTML_FILE = "output_BacNinh.html"
-OUT_FILE  = "vinpearl_chunks_markdown_BacNinh.json"
+HTML_FILE = "output_BacNinh_2.html"
+OUT_FILE  = "vinpearl_chunks_markdown_BacNinh_2.json"
 
 # 1) ĐỌC RAW HTML
 with open(HTML_FILE, "r", encoding="utf-8") as f:
@@ -143,7 +143,7 @@ for doc in md_docs:
 print("Tổng số chunks:", len(final_chunks))
 
 import json
-with open("vinpearl_chunks_simple_BacNinh.json", "w", encoding="utf-8") as f:
+with open("vinpearl_chunks_simple_BacNinh_2.json", "w", encoding="utf-8") as f:
     json.dump(final_chunks, f, ensure_ascii=False, indent=2)
 
-print("Đã lưu file: vinpearl_chunks_simple_BacNinh.json")
+print("Đã lưu file: vinpearl_chunks_simple_BacNinh_2.json")
