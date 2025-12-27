@@ -1,0 +1,56 @@
+Fine tune
+
+Tạo dữ liệu câu hỏi - trả lời chuẩn ban đầu bằng gemini
+Tạo được 100 câu (trong file fine_tune.csv)
+
+Và 100 câu đó được dùng làm "seed" -> sinh ra các thể loại câu mới, biến thể từ đó 
+(từ 1 ý hỏi mà ta có thể sinh ra được 10 cách hỏi và trả lời khác nhau chẳng hạn)
+
+output cuối cùng mà em có đề xuất hôm bữa là định dạng file jsonl với cấu trúc:
+System - user - assistant
+để nạp vào model
+
+Mục tiêu việc làm fine tune:
+Mục tiêu của task này là tạo bộ dữ liệu Fine-tune để dạy Bot 'Phong cách trả lời chuyên 
+nghiệp', chứ không phải dạy Bot học thuộc lòng dữ liệu (phần dữ liệu đã có RAG lo)
+
+Thông tin được lấy mô phỏng cuộc trò chuyện về chủ đề Đà Lạt
+Vậy thông tin cần chính xác ngay từ bước này không? Có và không 
+
+    Vì: Fine tune là quá trình mình đào tạo khả năng trả lời phù hợp
+        và chuyên nghiệp -> mục tiêu dạy cho cách trả lời
+            ví dụ giá vé mình có thể dữ liệu bị lệch so với thực tế cũng được
+
+    Tuy nhiên: không được sai kiến thức nền tảng
+            ví dụ Đà Lạt có biển -> hỏng trọng số
+
+        - ở khâu train model, nếu mình có thể xử lý được sai số nhỏ 
+        như giá vé mình dạy 160k nhưng thực tế thì RAG có độ ưu tiên cao hơn
+        nên nó sẽ ưu tiên trả lời 250k theo RAG
+
+        - Còn nếu dạy sai, trọng số sẽ lệch hoặc mất, dù thông tin RAG 
+        đưa thông tin đúng, Model vẫn có thể bị ngáo và trả lời lúc Đà Lạt,
+        lúc miền Bắc, lúc Hồ Chí Minh....
+
+Vậy dữ liệu fine-tune có cần phải bao hết thông tin các tỉnh mà mình làm không?
+    -> không cần thiết
+
+    Mình tập trung để tạo được các cuộc hỏi-trả lời đúng chuẩn cho vài tỉnh là nhiều
+    Tập trung vào sự đa dạng về hình thức và nội dung
+
+
+Yêu cầu cần thiết mà data fine tune cần có là gì?
+    - Hỏi giá cả
+    - Địa chỉ 
+    - Gọi ý
+    - Lịch trình 
+    - So sánh
+
+Tóm lại
+Quy trình em thực hiện thử nghiệm là:
+1. Tạo 100 câu hỏi-trả lời bằng gemini để xem chất lượng vấn đáp ra sao 
+
+2. Viết script Python đọc file CSV, dùng LLM nhân bản lên thành 1000 mẫu 
+(đảo ngữ, đổi từ đồng nghĩa...)
+
+3. Xuất ra file .jsonl (để chuẩn bị training)
