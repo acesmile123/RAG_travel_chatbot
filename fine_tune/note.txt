@@ -113,3 +113,11 @@ vì sao trong file jsonl đoạn đầu toàn là text "phân vai" thế?
 
     Do vậy việc lặp lại phân vai như thế để model hiểu cứ system prompt như thế thì phải bật chế
     độ trả lời thế nào 
+====###====
+UPDATE 4/12
+Em mới update lại code dùng Ollama để gen data ra file jsonl mới
+
+sử dụng ollama chạy local với code python mới up (bắt buộc phải cài ollama trên máy)
+
+File python chạy fine tune bằng ollama là bản thử, mọi người lưu ý nếu chạy thử thì nên xem kỹ lại và hiệu chỉnh
+code
