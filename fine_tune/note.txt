@@ -121,3 +121,11 @@ sử dụng ollama chạy local với code python mới up (bắt buộc phải 
 
 File python chạy fine tune bằng ollama là bản thử, mọi người lưu ý nếu chạy thử thì nên xem kỹ lại và hiệu chỉnh
 code
+
+====###====
+UPDATE 10/12
+Em mới thực hiện hiệu chỉnh lại code prompt gen từ file raw sang json sử dụng ollama
+Với việc thêm data từ 500 mẫu lên hơn 1000 mẫu gốc, sau đó gen thành hơn 10000 mẫu trong file json
+Trong code python em đã đính thêm đoạn code để tự động clean lại data tránh bị lặp hoặc ký tự lạ, bị lỗi
+
+Mọi người kiểm tra kỹ giúp em với nhé
