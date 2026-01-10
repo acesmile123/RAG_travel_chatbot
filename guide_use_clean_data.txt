@@ -1,0 +1,31 @@
+HƯỚNG DẪN CHẠY CLEAN_DATA.PY
+================================
+
+1. Chuẩn bị dữ liệu
+	- Đặt các file JSON thô vào các thư mục `mien_bac_data/` hoặc `mien_nam_data/`.
+	- Tên file nên chứa chuỗi `chunks` và KHÔNG có `_cleaned`. Ví dụ: `can_tho_chunks_simple.json`.
+
+2. Kiểm tra cấu hình
+	- Mặc định script chỉ xử lý file chứa `chunks` và chưa có `_cleaned`.
+	- Biến `DELETE_SOURCE_AFTER_CLEAN = True` (ở đầu file) đảm bảo file gốc sẽ bị xóa sau khi sinh bản `_cleaned`. Đừng đổi thành `False` nếu bạn muốn auto-dọn file thô.
+
+3. Chạy script
+	- Mở terminal tại thư mục gốc dự án.
+	- Thực thi: `python clean_data.py`.
+	- Script sẽ lần lượt quét `mien_bac_data/` và `mien_nam_data/`, tạo các file mới dạng `<tên_cũ>_cleaned.json` và xóa file thô tương ứng.
+
+4. Đọc log
+	- Sau mỗi file, console hiển thị: số chunk gốc, số chunk giữ lại, số chunk bị loại (phân loại lý do), % dữ liệu mất và trạng thái cảnh báo nếu vượt 20%.
+	- Dòng `• Đã xóa file gốc: ...` xác nhận file thô đã được dọn.
+
+5. Kiểm tra kết quả
+	- Mở file `_cleaned.json` để xác nhận nội dung đã sạch khỏi quảng cáo, caption hình ảnh, link, widget lịch…
+	- Các trường `tokens` đã được cập nhật lại theo nội dung mới.
+
+6. Khi có dữ liệu crawl mới
+	- Chỉ cần đặt file kết quả crawl (không `_cleaned`) vào đúng thư mục và chạy lại `python clean_data.py`.
+	- Script tự động bỏ qua mọi file đã có `_cleaned`, vì vậy bản sạch cũ không bị chỉnh sửa/xóa.
+
+7. Lưu ý thêm
+	- Nếu muốn giữ file gốc, đổi `DELETE_SOURCE_AFTER_CLEAN = False` trước khi chạy.
+	- Khi thêm thư mục dữ liệu mới, cập nhật danh sách `target_dirs` trong `clean_data.py` để script biết nơi cần quét.

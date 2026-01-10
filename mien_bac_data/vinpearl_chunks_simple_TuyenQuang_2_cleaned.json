@@ -1,0 +1,332 @@
+[
+    {
+        "id": "f5b37e0cf6bc",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Nội dung",
+        "type": "general",
+        "name": "Nội dung",
+        "content": "Tuyên Quang nằm ở khu vực Đông Bắc, giáp Hà Giang ở phía bắc, Bắc Kạn và Thái Nguyên ở phía đông, Yên Bái ở phía tây, Vĩnh Phú và Phú Thọ ở phía nam. Trung tâm hành chính của tỉnh là thành phố Tuyên Quang, ngoài ra còn có 6 huyện gồm Chiêm Hóa, Sơn Dương, Hàm Yên, Yên Sơn, Lâm Bình và Na Hang. Trong cách mạng tháng Tám, Tuyên Quang là thủ đô khu giải phóng, được chọn làm trung tâm cách mạng của cả nước. Tại các địa danh như Tân Trào - Sơn Dương - Tuyên Quang, đã diễn ra nhiều sự kiện lịch sử. Ngày nay, Tuyên Quang được coi là điểm đến du lịch phong phú, khi kết hợp tìm hiểu lịch sử và trải nghiệm thiên nhiên. Toàn cảnh khu di tích cây đa Tân Trào. Ảnh: *Thành Đạt*",
+        "tokens": 147
+    },
+    {
+        "id": "a579a05acd51",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Nội dung",
+        "type": "general",
+        "name": "Nội dung",
+        "content": "Toàn cảnh khu di tích cây đa Tân Trào. Ảnh: *Thành Đạt* Thời gian đẹp nhất để đến Tuyên Quang thường là sau tháng 9 cho tới khoảng sau Tết Âm lịch vì thời tiết khô ráo, cảnh thiên nhiên đẹp với nhiều loài hoa nở rộ.",
+        "tokens": 47
+    },
+    {
+        "id": "35e4620e708b",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Di chuyển",
+        "type": "transportation",
+        "name": "Di chuyển",
+        "content": "Thành phố Tuyên Quang cách trung tâm thủ đô Hà Nội khoảng 125 km. Đường đi nhanh nhất là theo cao tốc Nội Bài - Lào Cai sau đó vào cao tốc Tuyên Quang - Phú Thọ. Thời gian di chuyển toàn bộ tuyến đường khoảng 2 tiếng. Cao tốc Tuyên Quang - Phú Thọ vừa được khánh thành hôm 23/12, dài 40,2 km, có điểm đầu thuộc xã Lưỡng Vượng, thành phố Tuyên Quang và điểm cuối kết nối với nút giao IC9 cao tốc Nội Bài - Lào Cai. Xe khách từ Hà Nội đi Tuyên Quang xuất phát từ bến Mỹ Đình hoặc Giáp Bát. Thời gian di chuyển khoảng 2 tiếng rưỡi. Giá vé dao động từ 70.000 đồng đến 150.000 đồng. Cao tốc Tuyên Quang - Phú Thọ. Ảnh: *chinhphu.vn*",
+        "tokens": 135
+    },
+    {
+        "id": "3c567f2a9c31",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Lưu trú",
+        "type": "accommodation",
+        "name": "Lưu trú",
+        "content": "Thành phố Tuyên Quang có rất nhiều khách sạn, nhà nghỉ. Nếu du khách chỉ đến các điểm có khoảng cách dưới 100 km, nên nghỉ tại thành phố. Khách sạn Mường Thanh Tuyên Quang có giá dao động từ 1 đến 1,3 triệu đồng một đêm, Royal Palace giá khoảng 800.000 đồng một đêm. Các khách sạn nhỏ hơn có giá từ 300.000 đến 600.000 đồng như Anh Anh Luxury Hotel, khách sạn Tân Trang, khách sạn Kim Long, khách sạn Nắng Mai. Hệ thống nhà nghỉ và homestay tại thành phố cũng khá đa dạng như Minh Thủy, Lan Mão, Lộc Son, Hoa Hồng, Thanh Huyền, có giá từ 200.000 đồng trở xuống một đêm.",
+        "tokens": 117
+    },
+    {
+        "id": "f484de6f3506",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Lưu trú",
+        "type": "accommodation",
+        "name": "Lưu trú",
+        "content": "Tại Na Hang, du khách có thể chọn các homestay như homestay Bản Né Thanh Tương, homestay A Phủ, Homestay Đèo Bụt Na Hang (Misa), homestay Khuổi Nhi, Hưng Hòa homestay Na Hang, homestay Hoàng Việt. Các nơi này đều có dịch vụ trọn gói lưu trú và ăn uống. Giá một người cho mỗi đêm dao động từ 70.000 đồng tới 150.000 đồng. Giá thuê lều trại khoảng 200.000 đồng một đêm.",
+        "tokens": 73
+    },
+    {
+        "id": "9f1f57ead9aa",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "**Các điểm đến lịch sử** Tuyên Quang có 546 di tích lịch sử, văn hóa, danh thắng, trong đó có 435 di tích lịch sử, được ví như \"Bảo tàng cách mạng\" của cả nước. Toàn cảnh khu căn cứ cách mạng Tân Trào. Ảnh: *Thành Đạt* Tân Trào là xã ở đông bắc huyện Sơn Dương, gắn liền với Chủ tịch Hồ Chí Minh. Ở xã có 17 di tích, ghi lại những sự kiện lịch sử ngày đầu lập nước như Lán Nà Lừa, cây đa Tân Trào, đình Tân Trào, đình Hồng Thái cùng với những nơi ghi dấu ấn cuộc kháng chiến suốt 9 năm. **Lán Nà Lưa**",
+        "tokens": 112
+    },
+    {
+        "id": "2770f9e2f3e4",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "**Lán Nà Lưa** Đây là nơi Chủ tịch Hồ Chí Minh ở và làm việc từ cuối tháng 5 đến cuối tháng 8/1945 để chuẩn bị cho tổng khởi nghĩa. Lán được dựng bằng tre theo kiểu nhà sàn. Ngày 4/6/1945, tại đây Chủ tịch Hồ Chí Minh đã triệu tập hội nghị cán bộ để chuẩn bị thành lập \"khu giải phóng, quân giải phóng\", tiến tới Quốc dân Đại hội và tổng khởi nghĩa. Hiện lán vẫn được bảo tồn và là điểm du lịch nổi tiếng dành cho du khách khi tới Tuyên Quang. Lán Nà Lưa. Ảnh: *Cổng TTĐT Tuyên Quang* **Cây đa Tân Trào**",
+        "tokens": 109
+    },
+    {
+        "id": "6b14e6e9b532",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Lán Nà Lưa. Ảnh: *Cổng TTĐT Tuyên Quang* **Cây đa Tân Trào** Dưới bóng cây đa của làng Tân Lập, chiều 16/8/1945, quân giải phóng Việt Nam làm lễ xuất quân trước sự chứng kiến của nhân dân Tân Trào và 60 đại biểu toàn quốc về dự Quốc dân Đại hội. Đại tướng Võ Nguyên Giáp đã đọc bản quân lệnh số 1 và sau đó quân Giải phóng đã lên đường qua Thái Nguyên tiến về giải phóng Hà Nội. Cây đa Tân Trào. Ảnh: *Thành Đạt* **Đình Tân Trào**",
+        "tokens": 92
+    },
+    {
+        "id": "4d6fa8b86ff1",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Cây đa Tân Trào. Ảnh: *Thành Đạt* **Đình Tân Trào** Đây là ngôi đình thờ Thành Hoàng làng và các vị thần sông, núi của làng Tân Lập. Đình được dựng năm 1923 theo kiểu nhà sàn, cột gỗ 3 gian 2 chái, mái lợp lá cọ. Tại đây, ngày 16/8/1945, các đại biểu họp Quốc dân Đại hội đã tán thành chủ trương tiến hành Tổng khởi nghĩa, quy định quốc kỳ là lá cờ đỏ sao vàng, quốc ca là bài Tiến quân ca và cử ra Uỷ ban Giải phóng Dân tộc (Chính phủ lâm thời) do Chủ tịch Hồ Chí Minh đứng đầu. Sáng 17/8/1945, Chủ tịch Hồ Chí Minh đã đọc lời thề trong lễ ra mắt Quốc dân tại đây. [](",
+        "tokens": 127
+    },
+    {
+        "id": "4424aedd1a6b",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Đình Tân Trào. Ảnh: Thành Đạt Trước năm 1945, đình có tên là Kim Trận, thuộc địa phận làng Kim Trận (nay là thôn Cả), sau được đặt theo tên liệt sĩ Phạm Hồng Thái. Đình được dựng năm 1919, có kiến trúc gỗ, mái lợp lá cọ, gồm 3 gian 2 chái, mang dáng dấp nhà sàn miền núi. Đình thờ Thành Hoàng làng, thần sông, núi và các vị thần quanh vùng. Ngoài ra, đình còn thờ Ngọc Dung Công chúa. Đây còn là nơi sinh hoạt văn hoá, hội họp của làng. Ngoài giá trị về mặt tín ngưỡng, ngôi đình còn có giá trị lịch sử bởi là nơi dừng chân đầu tiên Chủ tịch Hồ Chí Minh sau khi từ Pắc Bó (Cao Bằng) về Tân Trào ngày 21/5/1945. Di tích đình Hồng Thái. Ảnh: *MyTuyenQuang* **Hang Bòng**",
+        "tokens": 143
+    },
+    {
+        "id": "240033287105",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Di tích đình Hồng Thái. Ảnh: *MyTuyenQuang* **Hang Bòng** Là nơi ở và làm việc của Chủ tịch Hồ Chí Minh trong kháng chiến chống Pháp. Hang nằm ở trên lưng chừng núi Bòng, dưới chân núi là sông Phó Đáy uốn khúc ôm lấy bên hữu dãy núi. Tại đây, Chủ tịch Hồ Chí Minh đã chỉ đạo chiến dịch Biên giới 1950 và Đại hội Đảng toàn quốc lần thứ 2 vào năm 1951. **Thành nhà Mạc** Thành nhà Mạc. Ảnh: *Cổng TTĐT Tuyên Quang*",
+        "tokens": 87
+    },
+    {
+        "id": "56d89d0e7e0a",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Thành nhà Mạc. Ảnh: *Cổng TTĐT Tuyên Quang* Thành nhà Mạc nằm ở phường Tân Quang, thành phố Tuyên Quang. Thành được xây dựng từ năm 1592, thời nhà Mạc và được sửa chữa vào thời đầu nhà Nguyễn (thế kỷ 19). Thành có vị trí quân sự quan trọng, án ngữ bên bờ sông Lô và nằm trên trục giao thông thuỷ bộ, từng gắn với nhiều sự kiện lịch sử quan trọng. Thành là di tích kiến trúc nghệ thuật, cũng là nơi đã diễn ra nhiều trận đánh của các cuộc khởi nghĩa nông dân, các trận đánh Pháp, Nhật, là nơi Chủ tịch Hồ Chí Minh nói chuyện với nhân dân Tuyên Quang khi về thăm sau 6 năm xa cách. Thành hiện không còn nguyên vẹn nhưng vẫn giữ được những phần cơ bản, là biểu tượng của lịch sử Tuyên Quang. Gần đây, thành đã được phục dựng, tu bổ một số hạng mục như hai cổng thành và 140 m tường còn lại. **Quảng trường Nguyễn Tất Thành**",
+        "tokens": 175
+    },
+    {
+        "id": "5b2c76c7ebbe",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "**Quảng trường Nguyễn Tất Thành** Quảng trường Nguyễn Tất Thành ở trung tâm TP Tuyên Quang. Ảnh: *Hùng Cường* Nằm ở trung tâm thành phố, ngay sát sông Lô, quảng trường Nguyễn Tất Thành có diện tích trên 8,5 ha, là điểm đến mang giá trị lịch sử, văn hóa có ý nghĩa với người dân Tuyên Quang. Chính giữa quảng trường là tượng đài \"Bác Hồ với nhân dân các dân tộc tỉnh Tuyên Quang\", sát chân núi Thổ Sơn. Công trình khởi công đầu năm 2012 và hoàn thành vào kỷ niệm 125 năm ngày sinh Chủ tịch Hồ Chí Minh (19/5/2015). Năm 2022, quảng trường Nguyễn Tất Thành được BTC giải thưởng \"Phong cảnh thành phố châu Á\" công nhận là một trong 11 công trình, dự án xuất sắc. **Các điểm đến thiên nhiên và văn hóa**",
+        "tokens": 141
+    },
+    {
+        "id": "ed0c6d54cf44",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "**Các điểm đến thiên nhiên và văn hóa** Được thiên nhiên ưu đãi, Tuyên Quang có nhiều cảnh đẹp kỳ vĩ và nhiều nét văn hóa đặc trưng dân tộc. **Khu du lịch sinh thái Na Hang** Bình minh trên hồ Na Hang. Ảnh: *Hai Le Cao* Khu du lịch sinh thái Na Hang - Lâm Bình được ví như \"thần tiên nơi hạ giới\", nằm cách TP Tuyên Quang hơn 100 km. Là hợp lưu của sông Lô và sông Gâm, xung quanh núi đá vôi, rừng nguyên sinh, nơi đây còn được mệnh danh là \"Hạ Long giữa đại ngàn\". Toàn khu có tổng diện tích 15.000 ha, trong đó có hơn 8.000 ha mặt nước hồ. Đường đi cũng rất đẹp, uốn lượn quanh núi đồi. Du khách sẽ có khoảng không gian rộng để khám phá và thư giãn, đặc biệt là du ngoạn trên lòng hồ. Thuyền trên hồ hoạt động từ 8h đến 17h hàng ngày.",
+        "tokens": 162
+    },
+    {
+        "id": "d09d743fd2f8",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Nằm ở độ cao hơn 1.000 m so với mực nước biển, cảnh sắc Na Hang luôn ngập trong sương mù, đặc biệt mùa đông từ tháng 11 đến tháng 1 năm sau. Đây cũng là thời điểm đẹp để tới Na Hang. Cọc Vài (Vài Phạ) linh thiêng nằm gần cửa động Song Long. Ảnh: *Huỳnh Nhi*",
+        "tokens": 58
+    },
+    {
+        "id": "d01e59cc0c97",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Cọc Vài (Vài Phạ) linh thiêng nằm gần cửa động Song Long. Ảnh: *Huỳnh Nhi* Du khách được thăm thú nhiều địa điểm như: Đền Pác Tạ, du thuyền ngoạn cảnh thác Mơ, thác Khuổi Nhi, khám phá hang động, rừng nguyên sinh gỗ quý, ngắm voọc nô đùa. Một trải nghiệm thú vị khác là trekking trong rừng già nguyên sinh thuộc khu bảo tồn thiên nhiên Na Hang - Lâm Bình. Ngoài ra còn có nhiều hang động đẹp như hang Bó Kim (xã Thanh Tương), hang Khau Quang (xã Năng Khả), hang Phia Muồn (xã Sơn Phú), hang Khuổi Pín (xã Khuôn Hà) và các thác nước như thác Nặm Me (xã Khuôn Hà), thác Khuổi Nhi (xã Thượng Lâm), thác Mơ (thị trấn Na Hang).",
+        "tokens": 129
+    },
+    {
+        "id": "e40a5c8240d1",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Trên hồ Na Hang có một điểm đặc biệt là Cọc Vài (Vài Phạ) linh thiêng, ai đi thuyền đến đây đều xin một điều ước. Cọc Vài cao 50 m, là một cột đá tự nhiên trong lòng hồ. Du khách đi thuyền dạo ngang cột đá thường được hướng dẫn viên gợi ý nên xin một điều ước cho bản thân hoặc gia đình, vì đây là nơi linh thiêng, may mắn. []( Hồ Na Hang. Ảnh: Hai Le Cao",
+        "tokens": 82
+    },
+    {
+        "id": "fde7fcef0d45",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Hồ Na Hang. Ảnh: Hai Le Cao []( Hồ Na Hang. Ảnh: Hai Le Cao []( Trên hồ Na Hang. Ảnh: Hai Le Cao",
+        "tokens": 24
+    },
+    {
+        "id": "fa2afe728c8e",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Trên hồ Na Hang. Ảnh: Hai Le Cao []( Đường đến hồ Na Hang. Ảnh: Hai Le Cao >> Xem thêm: [**Cọc đá cầu được ước thấy ở Na Hang**]( **Suối khoáng Mỹ Lâm**",
+        "tokens": 34
+    },
+    {
+        "id": "234a14aecaf2",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "**Suối khoáng Mỹ Lâm** Suối khoáng Mỹ Lâm nằm cách TP Tuyên Quang 12 km về phía tây nam, là khu du lịch trọng điểm của tỉnh. Nước khoáng thiên nhiên Mỹ Lâm được các nhà địa chất học người Pháp phát hiện từ năm 1923, trong và nóng, luôn ổn định ở mức 67 độ C, lấy trực tiếp từ mạch nước ngầm sâu hơn 150 m. Khu du lịch có đủ hệ thống khách sạn, nhà hàng, đáp ứng đa dạng nhu cầu của khách khi tới trải nghiệm. **Thác Mơ** Một góc của thác Mơ. Ảnh: *Wiki* Thác Mơ (còn gọi là thác Pác Ban) cách thành phố Tuyên Quang gần 100 km. Là quần thể gồm ba ngọn thác, cảnh sắc tại thác Mơ mơ mộng và huyền bí, được ví như chốn \"bồng lai tiên cảnh\", thích hợp với các bạn trẻ thích chụp ảnh.",
+        "tokens": 150
+    },
+    {
+        "id": "1b907602c065",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Có hai con đường để đến tham quan thác Mơ. Nếu du khách muốn thong thả và tốn ít sức lực nên đi bằng thuyền. Những du khách thích phiêu lưu và muốn có nhiều điểm chạm hơn thì có thể tiếp cận bằng đường bộ. Ngoài ra du khách thoải mái tham quan rừng nguyên sinh bao quanh thác. Khách du lịch sẽ được chạm tới những cây táu, cây lát cao xanh, những thảm lá khổng lồ. Nơi này ít dịch vụ nên chỉ tham quan trong ngày. []( Một phần của thác Mơ.",
+        "tokens": 96
+    },
+    {
+        "id": "3e7e4a53e732",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Một phần của thác Mơ. []( Thác Mơ Tuyên Quang. **Thác Bản Ba** Thác Bản Ba nằm bên triền núi Phiêng Khàng, thuộc xã Trung Hà, huyện Chiêm Hóa, cách TP Tuyên Quang 70 km. Từ Chiêm Hóa, con đường nhỏ rẽ vào thác dài 25 km sâu trong rừng. Thác đẹp độc đáo bởi cả chuỗi thác liên hoàn, với ba tầng thác lớn gồm Tát Củm, Tát Cao, Tát Gió. Chuyển tiếp giữa các tầng thác là những tầng thác nhỏ có độ cao 5-7 m, có nhiều khe nước nhỏ và các vực nước trong.",
+        "tokens": 98
+    },
+    {
+        "id": "689049885193",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "Đến Bản Ba, du khách còn được thám hiểm rừng già với những cây cổ thụ hàng trăm năm tuổi, nhiều loại gỗ quý, thân dây leo. Dưới chân thác, những cánh đồng quanh năm tươi tốt tạo nên bức tranh thiên nhiên đẹp. Nếu du khách muốn tìm địa điểm nghỉ chân thì nên chọn nhà sàn của đồng bào dân tộc và thưởng thức rau dớn, gà đồi, cá nướng, lợn tên lửa. **Đền Pác Tạ** Đền Pác Tạ là điểm đến tâm linh nằm dưới chân núi Pác Tạ, mang dấu tích của một ngôi đền cổ, nhiều cảnh đẹp xung quanh. Đền thờ phụng và tưởng nhớ vị hôn thê của tướng quân Trần Nhật Duật - vị tướng giỏi tài ba trấn thủ vùng đất Tuyên Quang lúc bấy giờ, là di tích lịch sử lưu lại dấu ấn nước ta chống quân Nguyên - Mông lần thứ 2 (1285). Với những giá trị về mặt văn hóa và lịch sử, đền Pắc Tạ là điểm đến thu hút hấp dẫn du khách gần xa. Lưu ý đây là điểm đến chỉ có tính chất tham quan, không có dịch vụ và các trò vui chơi.",
+        "tokens": 201
+    },
+    {
+        "id": "6be65fa3422a",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "**Động Song Long** Động Song Long Tuyên Quang. Ảnh: *Luhanhvietnam* Động Song Long thuộc địa phận tại xã Lâm Hà (huyện Lâm Bình), là địa điểm tham quan thu hút nhiều du khách trong và ngoài nước. Động được bao bọc bởi 99 ngọn núi, mất khoảng hơn 2 giờ di chuyển từ bến thủy Na Hang. Động có độ cao khoảng 200 m so với mặt hồ, dài hơn 200 m, độ cao trung bình bên trong là 40 m, nơi rộng nhất trên 50 m. Khám phá động Song Long, du khách sẽ có ấn tượng đầu tiên là \"cọc đá chọc trời\" ngay trước cửa hang mà người dân vẫn gọi là cọc Vài Phạ. **Hang Phia vài**",
+        "tokens": 121
+    },
+    {
+        "id": "fec024f6d889",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Tham quan",
+        "type": "general",
+        "name": "Tham quan",
+        "content": "**Hang Phia vài** Hang Phia Vài là di chỉ khảo cổ nằm ở huyện Lâm Bình, trong vùng hồ Na Hang của nhà máy thủy điện Tuyên Quang. Năm 2005 Bảo tàng Tuyên Quang và Viện khảo cổ học đã khai quật được di cốt người nguyên thủy tại Phia Vài. Du khách đến Phia Vài sẽ được giới thiệu các hiện vật, vùng văn hóa Hòa Bình. Tất cả các di vật tại hang Phia Vài cho thấy về tiến trình lịch sử phát triển của loài người.",
+        "tokens": 89
+    },
+    {
+        "id": "59eb355451ef",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Ẩm thực",
+        "type": "food",
+        "name": "Ẩm thực",
+        "content": "**Gỏi cá bỗng sông Lô** []( Cá bỗng sông Lô. Ảnh: N.A. []( Gỏi cá bỗng sau khi chế biến. Ảnh: N.A.",
+        "tokens": 22
+    },
+    {
+        "id": "b3a78e36547d",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Ẩm thực",
+        "type": "food",
+        "name": "Ẩm thực",
+        "content": "Gỏi cá bỗng sau khi chế biến. Ảnh: N.A. Đây là món ăn đầu tiên phải thưởng thức sau khi đến Tuyên Quang. Cá bỗng tươi sau khi bắt được sẽ làm sạch và chế biến thành gỏi. Một món ăn hài hòa cả về vị và thị giác, bao gồm vị ngọt của cá, thơm bùi của xương băm, chua thanh của chanh và vị cay tê tê của ớt tươi. **Hoa kè hấp thịt** Hoa kè hấp thịt là món ăn đặc trưng của người dân tộc Tày. Hoa kè có hình như một chiếc chuông nhỏ người Tày gọi là boóc kè, cây là loại thân gỗ, tán rộng, lá to. Sau khi được bỏ nhụy, rửa sạch, nhồi thịt và trứng rồi hấp khoảng 15 phút. Những bông hoa nở xòe cùng nhân thịt mềm, ngậy, hơi đắng. Hoa kè hấp thịt được dùng nóng, chấm với mắm.",
+        "tokens": 152
+    },
+    {
+        "id": "4b15e9a19a53",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Ẩm thực",
+        "type": "food",
+        "name": "Ẩm thực",
+        "content": "Hoa kè xào. **Lợn đen Na Hang** Lợn đen là đặc sản của vùng núi Na Hang, là giống lợn có mõm dài và nhọn, lông xù, đặc biệt thân hình nhỏ nhưng chắc chắn. Giống này thường được nuôi thả tự nhiên. Từ thịt lợn đên có thể chế biến thành nhiều món ngon như nướng cùng riềng mẻ, cùng ngũ vị hương hay xào lăn, và nổi tiếng nhất là làm thịt lợn chua. Lợn đen nướng. Ảnh: *Đặc sản Tuyên Quang* **Bánh nếp nhân trứng kiến** Trứng kiến được người Tày chế biến làm nhân của bánh nếp. Bánh có vị thơm ngon của nếp, vị ngậy béo của nhân trứng kiến quyện lẫn mùi của hành lá và rau thì là. Lưu ý, một số người khi ăn sẽ có thể bị dị ứng giống như dị ứng khi uống rượu, ăn hải sản. **Nộm da trâu**",
+        "tokens": 151
+    },
+    {
+        "id": "014aaa768539",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Ẩm thực",
+        "type": "food",
+        "name": "Ẩm thực",
+        "content": "**Nộm da trâu** Nộm da trâu. Ảnh: *Cổng TTĐT Tuyên Quang* Người Tày ở Lâm Bình đã biến da trâu thành đặc sản trên mâm cơm những dịp đặc biệt. Da trâu hơ qua lửa rồi ngâm với nước lã. Sau khi được làm sạch, đem luộc từ 1 tiếng rưỡi đến 2 tiếng rồi thái mỏng. Nộm da trâu cần gia giảm thêm các loại gia vị và rau thơm như lạc, mùi ta, mùi tàu, mắc khén và hoa chuối. Vị ngọt của da trâu, bùi của lạc rang, thơm của các loại gia vị hòa quyện thành món ăn đặc biệt. **Cam sành Hàm Yên**",
+        "tokens": 108
+    },
+    {
+        "id": "0b1bbe7d6029",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Ẩm thực",
+        "type": "food",
+        "name": "Ẩm thực",
+        "content": "**Cam sành Hàm Yên** Cam sành là một loại quả nổi tiếng được trồng lâu đời ở huyện Hàm Yên. Cam sành tại đây có trái to, hình hơi dẹt, màu vàng, đẹp mắt hơn các loại cam quýt từ các vùng miền khác. Cam Hàm Yên ngọt nhẹ, hơi chua, là món quà thích hợp cho du khách sau khi đến Tuyên Quang. Bạn cũng có thể hái quả trực tiếp tại vườn và chụp những kiểu ảnh đẹp. []( Cam sành Hàm Yên. Ảnh: Đặc sản Tuyên Quang",
+        "tokens": 90
+    },
+    {
+        "id": "8db7401da25a",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Ẩm thực",
+        "type": "food",
+        "name": "Ẩm thực",
+        "content": "Cam sành Hàm Yên. Ảnh: Đặc sản Tuyên Quang []( Cam sành Hàm Yên hái tại vườn. Ảnh: Đặc sản Tuyên Quang []( Cam sành Hàm Yên là món quà cho khách du lịch. Ảnh: Đặc sản Tuyên Quang",
+        "tokens": 39
+    },
+    {
+        "id": "c9adb8c6f045",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Ẩm thực",
+        "type": "food",
+        "name": "Ẩm thực",
+        "content": "Cam sành Hàm Yên là món quà cho khách du lịch. Ảnh: Đặc sản Tuyên Quang **Rượu Ngô Na Hang** Được biết đến với hương vị đậm đà của đồng bào dân tộc vùng đồi núi phía Bắc, rượu ngô Na Hang là một món ngon nổi tiếng của tỉnh Tuyên Quang. Du khách có thể thấy ngay hình ảnh một người phụ nữ nấu rượu khi bước vào một ngôi nhà truyền thông. Men lá Na Hang là thành phần chủ yếu làm nên hương vị đặc trưng của loại rượu này. Nấm hương là một trong 20 loại thảo mộc được sử dụng để làm men, giúp cho loại rượu này có mùi vị đặc trưng.",
+        "tokens": 118
+    },
+    {
+        "id": "e3d16018815b",
+        "province": "bac_ninh",
+        "source": "vinpearl",
+        "section": "Lưu ý",
+        "type": "general",
+        "name": "Lưu ý",
+        "content": "Tuyên Quang nhiều đồi núi, hồ thác và rừng nên lưu ý mang theo thuốc chống côn trùng nếu du khách có da nhạy cảm. **Tâm Anh** Cập nhật 29/12/2023, 09:53 (GMT+7)",
+        "tokens": 32
+    }
+]
