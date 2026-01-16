@@ -1,7 +1,7 @@
 [
     {
         "id": "4f7ea2d6b58e",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Nội dung",
         "type": "general",
@@ -11,7 +11,7 @@
     },
     {
         "id": "0b893a9ff8fa",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Hà Nội mùa nào đẹp",
         "type": "schedule",
@@ -21,7 +21,7 @@
     },
     {
         "id": "3ac897b4665c",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Di chuyển",
         "type": "transportation",
@@ -31,7 +31,7 @@
     },
     {
         "id": "124b5b3dcb63",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Lưu trú",
         "type": "accommodation",
@@ -41,7 +41,7 @@
     },
     {
         "id": "3f95bce845c7",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Lưu trú",
         "type": "accommodation",
@@ -51,7 +51,7 @@
     },
     {
         "id": "d49babc1eee2",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -61,7 +61,7 @@
     },
     {
         "id": "fce926daf670",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -71,7 +71,7 @@
     },
     {
         "id": "fe5f97fbd1f5",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -81,7 +81,7 @@
     },
     {
         "id": "a2d94d45fae7",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -91,7 +91,7 @@
     },
     {
         "id": "2d7d4a1c32bf",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -101,7 +101,7 @@
     },
     {
         "id": "9fd7812891c0",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -111,7 +111,7 @@
     },
     {
         "id": "d970cbfb1df9",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -121,7 +121,7 @@
     },
     {
         "id": "830480ef207b",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -131,7 +131,7 @@
     },
     {
         "id": "4ad533420a0a",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -141,7 +141,7 @@
     },
     {
         "id": "8d9679b5f2f4",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -151,7 +151,7 @@
     },
     {
         "id": "3c9d97c86808",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -161,7 +161,7 @@
     },
     {
         "id": "7b6aef5d3494",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -171,7 +171,7 @@
     },
     {
         "id": "627bae9e665e",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -181,7 +181,7 @@
     },
     {
         "id": "8387a26de668",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -191,7 +191,7 @@
     },
     {
         "id": "8aa515c466ae",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -201,7 +201,7 @@
     },
     {
         "id": "e2ca79102cc1",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Khám phá",
         "type": "general",
@@ -211,7 +211,7 @@
     },
     {
         "id": "9dc729cc4796",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -221,7 +221,7 @@
     },
     {
         "id": "963f58c4561f",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -231,7 +231,7 @@
     },
     {
         "id": "7bd70441aa00",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -241,7 +241,7 @@
     },
     {
         "id": "0eb1c53f9977",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -251,7 +251,7 @@
     },
     {
         "id": "d8da803053f2",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -261,7 +261,7 @@
     },
     {
         "id": "f3badc10ab36",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -271,7 +271,7 @@
     },
     {
         "id": "99e270011f3f",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -281,7 +281,7 @@
     },
     {
         "id": "db97d0b4ea33",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Quán xá",
         "type": "general",
@@ -291,7 +291,7 @@
     },
     {
         "id": "4c868a98ba40",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Mua gì làm quà",
         "type": "general",
@@ -301,7 +301,7 @@
     },
     {
         "id": "599a7d923927",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Mua gì làm quà",
         "type": "general",
@@ -311,7 +311,7 @@
     },
     {
         "id": "f6289bd71006",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Mua gì làm quà",
         "type": "general",
@@ -321,7 +321,7 @@
     },
     {
         "id": "e959abf66e80",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Mua gì làm quà",
         "type": "general",

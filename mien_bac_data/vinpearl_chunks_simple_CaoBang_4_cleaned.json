@@ -1,7 +1,7 @@
 [
     {
         "id": "133bb02a3afc",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Nội dung",
         "type": "general",
@@ -11,7 +11,7 @@
     },
     {
         "id": "36a28ad06149",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Giới thiệu về du lịch Cao Bằng",
         "type": "general",
@@ -21,7 +21,7 @@
     },
     {
         "id": "516217c2ccf5",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Giới thiệu về du lịch Cao Bằng",
         "type": "general",
@@ -31,7 +31,7 @@
     },
     {
         "id": "e6a1911434d7",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Thời điểm lý tưởng để du lịch Cao Bằng",
         "type": "schedule",
@@ -41,7 +41,7 @@
     },
     {
         "id": "2e1ddfa22b4b",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Thời điểm lý tưởng để du lịch Cao Bằng",
         "type": "schedule",
@@ -51,7 +51,7 @@
     },
     {
         "id": "8d25925891f4",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Thời điểm lý tưởng để du lịch Cao Bằng",
         "type": "schedule",
@@ -61,7 +61,7 @@
     },
     {
         "id": "1162c89a47f2",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Các điểm đến du lịch nổi tiếng tại Cao Bằng",
         "type": "general",
@@ -71,7 +71,7 @@
     },
     {
         "id": "206af3029eb1",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Thác Bản Giốc",
         "type": "general",
@@ -81,7 +81,7 @@
     },
     {
         "id": "57b3bb7ac77d",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Hang Pác Bó – suối Lê Nin",
         "type": "general",
@@ -91,7 +91,7 @@
     },
     {
         "id": "a440f9b8e133",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Hang Pác Bó – suối Lê Nin",
         "type": "general",
@@ -101,7 +101,7 @@
     },
     {
         "id": "f16e9afec956",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Động Ngườm Ngao",
         "type": "general",
@@ -111,7 +111,7 @@
     },
     {
         "id": "f69f2658ec97",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Động Ngườm Ngao",
         "type": "general",
@@ -121,7 +121,7 @@
     },
     {
         "id": "061fb9f076ad",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Bản Giuồng",
         "type": "general",
@@ -131,7 +131,7 @@
     },
     {
         "id": "bfc42629d3c6",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Bản Giuồng",
         "type": "general",
@@ -141,7 +141,7 @@
     },
     {
         "id": "968b20a647f6",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Núi Mắt Thần",
         "type": "general",
@@ -151,7 +151,7 @@
     },
     {
         "id": "01c2d0d37d21",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Núi Mắt Thần",
         "type": "general",
@@ -161,7 +161,7 @@
     },
     {
         "id": "542133f1b66c",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Làng đá cổ Khuổi Ky",
         "type": "general",
@@ -171,7 +171,7 @@
     },
     {
         "id": "236aebdfbce2",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Làng đá cổ Khuổi Ky",
         "type": "general",
@@ -181,7 +181,7 @@
     },
     {
         "id": "65e2e6b02971",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Hồ Thang Hen",
         "type": "general",
@@ -191,7 +191,7 @@
     },
     {
         "id": "b3f58bf507ac",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Hồ Thang Hen",
         "type": "general",
@@ -201,7 +201,7 @@
     },
     {
         "id": "7de644fe0cec",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Đèo Mẻ Pia",
         "type": "general",
@@ -211,7 +211,7 @@
     },
     {
         "id": "1dd89597c7a0",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Thác Nặm Trá",
         "type": "general",
@@ -221,7 +221,7 @@
     },
     {
         "id": "bf9368d9ca7a",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chợ phiên Cao Bằng",
         "type": "general",
@@ -231,7 +231,7 @@
     },
     {
         "id": "d19d07ef922f",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chợ phiên Cao Bằng",
         "type": "general",
@@ -241,7 +241,7 @@
     },
     {
         "id": "04d676522337",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chùa Phật Tích Trúc Lâm",
         "type": "general",
@@ -251,7 +251,7 @@
     },
     {
         "id": "c052838b60de",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chùa Phật Tích Trúc Lâm",
         "type": "general",
@@ -261,7 +261,7 @@
     },
     {
         "id": "b39b25ea0352",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Ẩm thực khi du lịch Cao Bằng nên thử",
         "type": "food",
@@ -271,7 +271,7 @@
     },
     {
         "id": "51a567fac1f8",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Ẩm thực khi du lịch Cao Bằng nên thử",
         "type": "food",
@@ -281,7 +281,7 @@
     },
     {
         "id": "4e732ef0fc48",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Ẩm thực khi du lịch Cao Bằng nên thử",
         "type": "food",
@@ -291,7 +291,7 @@
     },
     {
         "id": "9752ac3926d6",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Ẩm thực khi du lịch Cao Bằng nên thử",
         "type": "food",
@@ -301,7 +301,7 @@
     },
     {
         "id": "ec3e2b46fc98",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Kinh nghiệm du lịch Cao Bằng",
         "type": "general",
@@ -311,7 +311,7 @@
     },
     {
         "id": "37521fb31690",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Kinh nghiệm du lịch Cao Bằng",
         "type": "general",
@@ -321,7 +321,7 @@
     },
     {
         "id": "f0597f32f2dc",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Kinh nghiệm du lịch Cao Bằng",
         "type": "general",

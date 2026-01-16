@@ -1,7 +1,7 @@
 [
     {
         "id": "1e940d8f0942",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Nội dung",
         "type": "general",
@@ -11,7 +11,7 @@
     },
     {
         "id": "ef07ed389e76",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Cao Bằng mùa nào đẹp?",
         "type": "schedule",
@@ -21,7 +21,7 @@
     },
     {
         "id": "28085166b867",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Di chuyển",
         "type": "transportation",
@@ -31,7 +31,7 @@
     },
     {
         "id": "5bdff1149e98",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Lưu trú",
         "type": "accommodation",
@@ -41,7 +41,7 @@
     },
     {
         "id": "f2d1b5b0d41b",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -51,7 +51,7 @@
     },
     {
         "id": "2c0b2185f0e5",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -61,7 +61,7 @@
     },
     {
         "id": "935f82aa849e",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -71,7 +71,7 @@
     },
     {
         "id": "01b9451fe9f7",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -81,7 +81,7 @@
     },
     {
         "id": "d8eaf073e785",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -91,7 +91,7 @@
     },
     {
         "id": "23012a07dc82",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -101,7 +101,7 @@
     },
     {
         "id": "74837393ba75",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -111,7 +111,7 @@
     },
     {
         "id": "6b3e6c1b68a6",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -121,7 +121,7 @@
     },
     {
         "id": "2e63feb3417a",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -131,7 +131,7 @@
     },
     {
         "id": "0ab86eca5438",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -141,7 +141,7 @@
     },
     {
         "id": "cd0edc5a442c",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -151,7 +151,7 @@
     },
     {
         "id": "9371dcfbd7af",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -161,7 +161,7 @@
     },
     {
         "id": "171a81c7253e",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -171,7 +171,7 @@
     },
     {
         "id": "42fda13d8004",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -181,7 +181,7 @@
     },
     {
         "id": "8ec46d9dd630",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Chơi đâu",
         "type": "general",
@@ -191,7 +191,7 @@
     },
     {
         "id": "e6ae867dd839",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Đặc sản Cao Bằng",
         "type": "general",
@@ -201,7 +201,7 @@
     },
     {
         "id": "2d38256e241e",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Đặc sản Cao Bằng",
         "type": "general",
@@ -211,7 +211,7 @@
     },
     {
         "id": "08fc5ae68e71",
-        "province": "bac_ninh",
+        "province": "cao_bang",
         "source": "vinpearl",
         "section": "Đặc sản Cao Bằng",
         "type": "general",

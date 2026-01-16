@@ -1,7 +1,7 @@
 [
     {
         "id": "d7c44214f761",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "Nội dung",
         "type": "general",
@@ -11,7 +11,7 @@
     },
     {
         "id": "b1450bbc2a52",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**1. Ga Tàu Cát Linh Hà Đông - Hà Nội**",
         "type": "general",
@@ -21,7 +21,7 @@
     },
     {
         "id": "7596825eea6c",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**2. Phố Tạ Hiện - Cùng Khám Phá Hà Nội Về Đêm**",
         "type": "general",
@@ -31,7 +31,7 @@
     },
     {
         "id": "bec063f744bf",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**3. KidZania - Khu Vui Chơi Nổi Tiếng Hà Nội**",
         "type": "general",
@@ -41,7 +41,7 @@
     },
     {
         "id": "88ae8cc2dfac",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**3. KidZania - Khu Vui Chơi Nổi Tiếng Hà Nội**",
         "type": "general",
@@ -51,7 +51,7 @@
     },
     {
         "id": "c04a8651495f",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**4. Bảo Tàng I-Museum Ở Hà Nội**",
         "type": "general",
@@ -61,7 +61,7 @@
     },
     {
         "id": "b52e074c75b3",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**4. Bảo Tàng I-Museum Ở Hà Nội**",
         "type": "general",
@@ -71,7 +71,7 @@
     },
     {
         "id": "7171f67f589a",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**5. Mega Grand World Hà Nội**",
         "type": "general",
@@ -81,7 +81,7 @@
     },
     {
         "id": "8c315b774732",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**6. Con Đường Gốm Sứ - Địa Điểm Chụp Ảnh Đẹp Ở Hà Nội**",
         "type": "destination",
@@ -91,7 +91,7 @@
     },
     {
         "id": "a1a21dafa69d",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**7. Hoàng Thành Thăng Long - Địa Điểm Du Lịch Hà Nội Được Yêu Thích**",
         "type": "destination",
@@ -101,7 +101,7 @@
     },
     {
         "id": "84910211d7d0",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**8. Phố Phan Đình Phùng**",
         "type": "general",
@@ -111,7 +111,7 @@
     },
     {
         "id": "c2575e711295",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**9. Làng Lụa Vạn Phúc Hà Nội**",
         "type": "general",
@@ -121,7 +121,7 @@
     },
     {
         "id": "44afee610d8c",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**10. Đài Quan Sát Lotte Hà Nội Sky**",
         "type": "general",
@@ -131,7 +131,7 @@
     },
     {
         "id": "754a71193567",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**11. Phố Cổ Hà Nội**",
         "type": "general",
@@ -141,7 +141,7 @@
     },
     {
         "id": "d15483f52661",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**12. Xem Múa Rối Nước Thăng Long Tại Hà Nội**",
         "type": "transportation",
@@ -151,7 +151,7 @@
     },
     {
         "id": "05e7a92e2a02",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**13. Chùa Hương - Ngoại Thành Hà Nội**",
         "type": "general",
@@ -161,7 +161,7 @@
     },
     {
         "id": "a741ccdfde8c",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**14. Đồi Bù, Hà Nội**",
         "type": "general",
@@ -171,7 +171,7 @@
     },
     {
         "id": "e8e68fd93316",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**15. Văn Miếu - Quốc Tử Giám**",
         "type": "pricing",
@@ -181,7 +181,7 @@
     },
     {
         "id": "04ab1154820f",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**16. Khuê Văn CácHà Nội**",
         "type": "general",
@@ -191,7 +191,7 @@
     },
     {
         "id": "6d06473d182e",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**17. Nhà Thờ Lớn Hà Nội**",
         "type": "general",
@@ -201,7 +201,7 @@
     },
     {
         "id": "7ad8cb29d9d3",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**17. Nhà Thờ Lớn Hà Nội**",
         "type": "general",
@@ -211,7 +211,7 @@
     },
     {
         "id": "a25fe6de9cdc",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**18. Nhà Hát Lớn Hà Nội**",
         "type": "general",
@@ -221,7 +221,7 @@
     },
     {
         "id": "a0a457b6c516",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**19. Bảo Tàng Dân Tộc Học Việt Nam**",
         "type": "general",
@@ -231,7 +231,7 @@
     },
     {
         "id": "1f705bded483",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**19. Bảo Tàng Dân Tộc Học Việt Nam**",
         "type": "general",
@@ -241,7 +241,7 @@
     },
     {
         "id": "816ffb9a1b3a",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**20. Hồ Hoàn Kiếm Hà Nội**",
         "type": "general",
@@ -251,7 +251,7 @@
     },
     {
         "id": "962c4a86836a",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**20. Hồ Hoàn Kiếm Hà Nội**",
         "type": "general",
@@ -261,7 +261,7 @@
     },
     {
         "id": "9730faf101f1",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**21. Hồ Tây - Hà Nội**",
         "type": "general",
@@ -271,7 +271,7 @@
     },
     {
         "id": "ff857ef79e37",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**22. Bãi Đá Sông Hồng**",
         "type": "general",
@@ -281,7 +281,7 @@
     },
     {
         "id": "f3182c11ca3c",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**23. Quảng Trường Ba Đình - Lăng Chủ Tịch Hồ Chí Minh**",
         "type": "general",
@@ -291,7 +291,7 @@
     },
     {
         "id": "29404cf359d9",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**23. Quảng Trường Ba Đình - Lăng Chủ Tịch Hồ Chí Minh**",
         "type": "general",
@@ -301,7 +301,7 @@
     },
     {
         "id": "71ea587259bb",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**24. Hồ Trúc Bạch**",
         "type": "general",
@@ -311,7 +311,7 @@
     },
     {
         "id": "65aee0c42ab9",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**25. Bảo Tàng Mỹ Thuật Việt Nam**",
         "type": "general",
@@ -321,7 +321,7 @@
     },
     {
         "id": "e11ba709aea5",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**25. Bảo Tàng Mỹ Thuật Việt Nam**",
         "type": "general",
@@ -331,7 +331,7 @@
     },
     {
         "id": "252d88d4f6f6",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**25. Bảo Tàng Mỹ Thuật Việt Nam**",
         "type": "general",
@@ -341,7 +341,7 @@
     },
     {
         "id": "89deb1462525",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**26. Làng Gốm Bát Tràng**",
         "type": "general",
@@ -351,7 +351,7 @@
     },
     {
         "id": "fef6ca7dbe48",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**27. Chùa Một Cột - Di Tích Lịch Sử Nổi Tiếng Hà Nội**",
         "type": "general",
@@ -361,7 +361,7 @@
     },
     {
         "id": "2a4da2f1d300",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**28. Khu Di Tích Chủ Tịch Hồ Chí Minh**",
         "type": "general",
@@ -371,7 +371,7 @@
     },
     {
         "id": "b036e289643b",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**28. Khu Di Tích Chủ Tịch Hồ Chí Minh**",
         "type": "general",
@@ -381,7 +381,7 @@
     },
     {
         "id": "62f41f7e3c32",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**29. Cầu Long Biên - Địa Điểm Du Lịch Hà Nội Nổi Tiếng**",
         "type": "destination",
@@ -391,7 +391,7 @@
     },
     {
         "id": "7695916fbb73",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**30. Thuỷ Cung Lotte World - Địa Điểm Du Lịch Hà Nội Phù Hợp Cho Gia Đình**",
         "type": "destination",
@@ -401,7 +401,7 @@
     },
     {
         "id": "6def9fa53944",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**30. Thuỷ Cung Lotte World - Địa Điểm Du Lịch Hà Nội Phù Hợp Cho Gia Đình**",
         "type": "destination",
@@ -411,7 +411,7 @@
     },
     {
         "id": "ecb13293b008",
-        "province": "bac_ninh",
+        "province": "ha_noi",
         "source": "vinpearl",
         "section": "**30. Thuỷ Cung Lotte World - Địa Điểm Du Lịch Hà Nội Phù Hợp Cho Gia Đình**",
         "type": "destination",
