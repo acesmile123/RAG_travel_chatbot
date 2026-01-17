@@ -26,4 +26,4 @@ qwen_qlora_adapter/
 .DS_Store
 Thumbs.db
 
-training_data_cleaned
+training_data_cleaned.jsonl
