@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.venv/
+.env
+
+# VSCode
+.vscode/
+
+# Data & DB
+qdrant_local/
+mien_trung_data/
+
+# Model & checkpoints
+qwen_qlora_adapter/
+*.bin
+*.safetensors
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+training_data_cleaned
