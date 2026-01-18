@@ -6,9 +6,22 @@ __pycache__/
 # Env
 .venv/
 .env
+.env.local
+.env.*.local
 
 # VSCode
 .vscode/
+
+# Node.js / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+dist/
+build/
+.cache/
 
 # Data & DB
 qdrant_local/
