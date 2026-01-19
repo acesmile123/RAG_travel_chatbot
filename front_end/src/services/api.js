@@ -1,8 +1,5 @@
-
-// 1. Lấy địa chỉ Backend từ file .env (đã giải thích ở trên)
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:8000';
 
-// Danh sách câu trả lời mặc định theo địa danh (18 tỉnh thành)
 const DEFAULT_RESPONSES = {
   'hà nội': 'Hà Nội - Thủ đô ngàn năm văn hiến với Hồ Hoàn Kiếm, Văn Miếu Quốc Tử Giám, Phố cổ 36 phường phố. Đặc sản: Phở, bún chả, chả cá Lã Vọng. Thời điểm đẹp nhất: Thu (tháng 9-11) với thời tiết mát mẻ, lá vàng rơi đầy lãng mạn.',
   'hải phòng': 'Hải Phòng - Thành phố cảng với Đảo Cát Bà (Vịnh Lan Hạ), Đồ Sơn. Đặc sản: Bánh đa cua, nem cua bể. Từ Hải Phòng có thể đi thuyền tham quan Vịnh Lan Hạ hoặc leo núi ở Cát Bà.',
@@ -48,7 +45,6 @@ const DEFAULT_RESPONSES = {
  Ăn vặt phải thử: Sữa chua dẻo, bắp nướng bơ, trứng chén, kem bơ`
 };
 
-// Hàm kiểm tra và trả lời mặc định
 const checkDefaultResponse = (message) => {
   const lowerMsg = message.toLowerCase().trim();
   
@@ -62,14 +58,12 @@ const checkDefaultResponse = (message) => {
     }
   }
   
-  return null; // Không tìm thấy match
+  return null; 
 };
 
 export const sendMessageToAI = async (message) => {
-  // Kiểm tra trả lời mặc định trước
   const defaultResponse = checkDefaultResponse(message);
   if (defaultResponse) {
-    // Thêm delay 800ms để giống như đang xử lý
     await new Promise(resolve => setTimeout(resolve, 4000));
     return {
       text: defaultResponse,
@@ -79,34 +73,29 @@ export const sendMessageToAI = async (message) => {
   
 
   try {
-    // 2. Gửi yêu cầu thực tế lên Server Backend
     const response = await fetch(`${API_BASE}/api/v1/chat`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        message: message // Nội dung người dùng nhập
+        message: message 
       }),
     });
 
-    // 3. Kiểm tra nếu server báo lỗi (ví dụ 404, 500)
     if (!response.ok) {
       throw new Error('Không thể kết nối với Server Backend');
     }
 
-    // 4. Đọc dữ liệu trả về từ Server
     const data = await response.json();
 
-    // 5. Trả về đúng cấu trúc mà App.jsx đang chờ (chỉ lấy phần text)
     return {
-      text: data.text, // Giả sử Backend trả về JSON có dạng { "text": "..." }
-      sources: []      // Vẫn để mảng rỗng để không làm lỗi code ở App.jsx
+      text: data.text, 
+      sources: []      
     };
 
   } catch (error) {
     console.error("Lỗi API:", error);
-    // Trả về thông báo lỗi để hiển thị lên màn hình chat cho người dùng thấy
     return {
       text: "Hệ thống đang bận hoặc Backend chưa bật. Thử lại sau nhé.",
       sources: []

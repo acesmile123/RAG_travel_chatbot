@@ -124,15 +124,12 @@ function App() {
         messages: []
       })
       
-      // Reset chat và set session mới
       setMessages([{ 
         role: 'bot', 
         content: 'Hello! I\'m here to help with your travel plans. Where would you like to go?', 
         sources: [] 
       }])
       setCurrentSessionId(newSession.id)
-      
-      // Thêm vào danh sách sessions
       setSessions(prev => [newSession, ...prev])
       closeSidebar()
     } catch (error) {
@@ -146,7 +143,6 @@ function App() {
       await deleteSession(sessionId)
       setSessions(prev => prev.filter(s => s.id !== sessionId))
       
-      // Nếu đang xem session bị xóa thì reset
       if (currentSessionId === sessionId) {
         setCurrentSessionId(null)
         setMessages([{ 
@@ -160,7 +156,6 @@ function App() {
     }
   }
 
-  // Load sessions khi mở lịch sử
   useEffect(() => {
     if (historyOpen && sessions.length === 0) {
       loadSessions()
@@ -191,7 +186,6 @@ function App() {
     setInput('')
     setIsLoading(true)
 
-    // Reset textarea height to default
     if (textareaRef.current) {
       textareaRef.current.style.height = 'auto'
     }
@@ -218,8 +212,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-[#fcfcfc] dark:bg-[#1a1a1a] flex flex-col">
-      
-      {/* Header - minimal and elegant */}
       <header className="sticky top-0 z-10 border-b border-gray-200 dark:border-gray-700 py-6 bg-white dark:bg-gray-900 relative">
         <button
           aria-label="Open sidebar"
@@ -234,8 +226,6 @@ function App() {
           <h1 className="text-2xl font-light tracking-tight text-gray-800 dark:text-gray-200">Travel Assistant</h1>
           <p className="text-sm text-gray-400 dark:text-gray-500 mt-1">Your personal guide to exploring the world</p>
         </div>
-
-        {/* Theme toggle button */}
         <button
           onClick={toggleTheme}
           aria-label="Toggle dark mode"
