@@ -19,9 +19,11 @@ UI Demo:
 
 ![image](./assets/scrshot_5.png)
 
-Demo Video:
+---
+Demo Video (**front_end_demo.mp4**) at:
 
-https://user-images.githubusercontent.com/48487157/front_end_demo.mp4
+https://github.com/acesmile123/RAG_travel_chatbot/tree/main/front_end/assets
+---
 
 Setup:
 
