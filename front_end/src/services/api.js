@@ -61,17 +61,18 @@ const checkDefaultResponse = (message) => {
   return null; 
 };
 
-export const sendMessageToAI = async (message) => {
+export const sendMessageToAI = async (message, sessionId = null, stream = false) => {
+  // Check default responses first (for demo/offline mode)
   const defaultResponse = checkDefaultResponse(message);
   if (defaultResponse) {
     await new Promise(resolve => setTimeout(resolve, 4000));
     return {
       text: defaultResponse,
-      sources: []
+      sources: [],
+      sessionId: sessionId
     };
   }
   
-
   try {
     const response = await fetch(`${API_BASE}/api/v1/chat`, {
       method: 'POST',
@@ -79,7 +80,9 @@ export const sendMessageToAI = async (message) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        message: message 
+        message: message,
+        session_id: sessionId,  // Send session_id to backend
+        stream: stream
       }),
     });
 
@@ -89,16 +92,20 @@ export const sendMessageToAI = async (message) => {
 
     const data = await response.json();
 
+    // Backend returns: { session_id, message, context, created_at }
+    // Frontend expects: { text, sources, sessionId }
     return {
-      text: data.text, 
-      sources: []      
+      text: data.message,           // Backend uses 'message' field
+      sources: data.context ? [data.context] : [],  // Convert context to sources array
+      sessionId: data.session_id    // Convert snake_case to camelCase
     };
 
   } catch (error) {
     console.error("Lỗi API:", error);
     return {
       text: "Hệ thống đang bận hoặc Backend chưa bật. Thử lại sau nhé.",
-      sources: []
+      sources: [],
+      sessionId: sessionId
     };
   }
 };
