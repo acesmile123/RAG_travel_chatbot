@@ -15,20 +15,12 @@ LLM_MODEL = "llama-3.3-70b-versatile"
 
 # ========================== INIT MODELS ==========================
 
-client = Groq(api_key="GROQ_API_KEY")
+client = Groq(api_key=GROQ_API_KEY)
 
 client_qdrant = QdrantClient(
     url=QDRANT_URL,
     api_key=QDRANT_API_KEY,
 )
-
-embeddings = HuggingFaceEmbeddings(
-    model_name=EMBED_MODEL,
-    encode_kwargs={"normalize_embeddings": True},
-)
-
-sparse_embeddings = FastEmbedSparse(model_name="Qdrant/bm25")
-
 for field in ["province", "type"]:
     client_qdrant.create_payload_index(
         collection_name=COLLECTION_NAME,
@@ -36,16 +28,43 @@ for field in ["province", "type"]:
         field_schema=qdm.PayloadSchemaType.KEYWORD,
     )
 
-vectorstore = QdrantVectorStore(
-    client=client_qdrant,
-    collection_name=COLLECTION_NAME,
-    embedding=embeddings,
-    sparse_embedding=sparse_embeddings,
-    vector_name="dense",
-    sparse_vector_name="sparse",
-    content_payload_key="content",
-    metadata_payload_key=None,
-)
+embeddings = None
+sparse_embeddings = None
+vectorstore = None
+reranker = None
+
+
+def init_heavy_models():
+    """Chỉ gọi hàm này khi user bắt đầu chat câu đầu tiên"""
+    global embeddings, sparse_embeddings, vectorstore, reranker
+    
+    if embeddings is None:
+        print("⏳ Đang tải mô hình Dense Embeddings (Chỉ chạy 1 lần duy nhất)...")
+        embeddings = HuggingFaceEmbeddings(
+            model_name=EMBED_MODEL,
+            encode_kwargs={"normalize_embeddings": True},
+        )
+
+    if sparse_embeddings is None:
+        print("⏳ Đang tải mô hình Sparse Embeddings...")
+        sparse_embeddings = FastEmbedSparse(model_name="Qdrant/bm25")
+
+    if vectorstore is None:
+        print("⏳ Đang kết nối Vector Store...")
+        vectorstore = QdrantVectorStore(
+            client=client_qdrant,
+            collection_name=COLLECTION_NAME,
+            embedding=embeddings,
+            sparse_embedding=sparse_embeddings,
+            vector_name="dense",
+            sparse_vector_name="sparse",
+            content_payload_key="content",
+            metadata_payload_key=None,
+        )
+
+    if reranker is None:
+        print("⏳ Đang tải Reranker Model...")
+        reranker = CrossEncoder(RERANK_MODEL)
 
 
 def get_provinces_from_qdrant(client, collection_name):
@@ -62,7 +81,6 @@ def get_provinces_from_qdrant(client, collection_name):
     return list(provinces)
 
 
-reranker = CrossEncoder(RERANK_MODEL)
 PROVINCES = get_provinces_from_qdrant(client_qdrant, COLLECTION_NAME)
 print("Loaded provinces:", PROVINCES)
 
@@ -284,6 +302,7 @@ Câu hỏi: {query}"""
 # ====================== FULL PIPELINE ======================
 
 def rag_pipeline(query: str, chat_history: List[Dict] = None):
+    init_heavy_models()
     """
     Args:
         query:        Câu hỏi hiện tại của user
