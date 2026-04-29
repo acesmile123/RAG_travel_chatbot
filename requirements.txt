@@ -1,0 +1,11 @@
+qdrant-client
+langchain-qdrant
+sentence-transformers
+openai
+dotenv  
+langchain-huggingface
+fastembed
+groq
+fastapi
+uvicorn
+pydantic

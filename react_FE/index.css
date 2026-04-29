@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Smooth dark mode transition */
+  *, *::before, *::after {
+    transition-property: background-color, border-color;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+  }
+
+  /* But NOT for transforms / opacity — keep UI snappy */
+  button, a, [role="button"] {
+    transition-property: background-color, border-color, color, opacity, transform, box-shadow;
+  }
+}
+
+@layer utilities {
+  /* Custom thin scrollbar */
+  .overflow-y-auto {
+    scrollbar-width: thin;
+    scrollbar-color: theme("colors.gray.300") transparent;
+  }
+  .dark .overflow-y-auto {
+    scrollbar-color: theme("colors.gray.700") transparent;
+  }
+  .overflow-y-auto::-webkit-scrollbar        { width: 4px; }
+  .overflow-y-auto::-webkit-scrollbar-track  { background: transparent; }
+  .overflow-y-auto::-webkit-scrollbar-thumb  { @apply bg-gray-300 dark:bg-gray-700 rounded-full; }
+}
+
+/* Streaming cursor blink */
+.streaming-cursor {
+  display: inline-block;
+  margin-left: 2px;
+  color: theme("colors.emerald.400");
+  animation: blink 0.7s steps(1) infinite;
+  font-size: 0.85em;
+  vertical-align: middle;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
