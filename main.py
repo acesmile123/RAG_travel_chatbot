@@ -10,7 +10,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from building_retriever import rag_pipeline
+from RAG_pipeline.building_retriever.py import rag_pipeline
 
 # ── App ───────────────────────────────────────────────────────────────────────
 app = FastAPI(
