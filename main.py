@@ -1,4 +1,4 @@
-
+from __future__ import annotations
 import sys
 print("=== START: importing modules ===", flush=True)
 import os
@@ -13,7 +13,6 @@ except Exception as e:
     print(f"=== RAG IMPORT FAILED: {e} ===", flush=True)
     sys.exit(1)
 
-from __future__ import annotations
 import json
 import uuid
 import os
