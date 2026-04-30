@@ -1,3 +1,18 @@
+
+import sys
+print("=== START: importing modules ===", flush=True)
+import os
+print("=== os imported ===", flush=True)
+from fastapi import FastAPI
+print("=== fastapi imported ===", flush=True)
+
+try:
+    from RAG_pipeline.building_retriever import rag_pipeline
+    print("=== RAG pipeline imported OK ===", flush=True)
+except Exception as e:
+    print(f"=== RAG IMPORT FAILED: {e} ===", flush=True)
+    sys.exit(1)
+
 from __future__ import annotations
 import json
 import uuid
@@ -5,12 +20,12 @@ import os
 from datetime import datetime
 from typing import List, Dict, Optional
 
-from fastapi import FastAPI, HTTPException
+from fastapi import HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from RAG_pipeline.building_retriever import rag_pipeline
+
 
 # ── App ───────────────────────────────────────────────────────────────────────
 app = FastAPI(
