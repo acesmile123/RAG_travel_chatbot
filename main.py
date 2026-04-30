@@ -10,7 +10,9 @@ try:
     from RAG_pipeline.building_retriever import rag_pipeline
     print("=== RAG pipeline imported OK ===", flush=True)
 except Exception as e:
-    print(f"=== RAG IMPORT FAILED: {e} ===", flush=True)
+    import traceback
+    print("=== RAG IMPORT FAILED ===", flush=True)
+    traceback.print_exc()   # ← in full stack trace
     sys.exit(1)
 
 import json
