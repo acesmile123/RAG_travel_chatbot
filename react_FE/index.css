@@ -6,37 +6,48 @@
   html {
     font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Smooth dark mode transition */
-  *, *::before, *::after {
-    transition-property: background-color, border-color;
-    transition-duration: 200ms;
-    transition-timing-function: ease;
-  }
-
-  /* But NOT for transforms / opacity — keep UI snappy */
-  button, a, [role="button"] {
-    transition-property: background-color, border-color, color, opacity, transform, box-shadow;
-  }
+  /* Composer gradient bg via CSS variable */
+  :root          { --composer-bg: #f6f8fb; }
+  .dark          { --composer-bg: #0b1520; }
 }
 
+/* ── Scrollbar ──────────────────────────────────────────────────────────────── */
 @layer utilities {
-  /* Custom thin scrollbar */
   .overflow-y-auto {
     scrollbar-width: thin;
     scrollbar-color: theme("colors.gray.300") transparent;
   }
   .dark .overflow-y-auto {
-    scrollbar-color: theme("colors.gray.700") transparent;
+    scrollbar-color: theme("colors.slate.700") transparent;
   }
-  .overflow-y-auto::-webkit-scrollbar        { width: 4px; }
-  .overflow-y-auto::-webkit-scrollbar-track  { background: transparent; }
-  .overflow-y-auto::-webkit-scrollbar-thumb  { @apply bg-gray-300 dark:bg-gray-700 rounded-full; }
+  .overflow-y-auto::-webkit-scrollbar       { width: 4px; }
+  .overflow-y-auto::-webkit-scrollbar-track { background: transparent; }
+  .overflow-y-auto::-webkit-scrollbar-thumb {
+    @apply bg-gray-200 dark:bg-slate-700 rounded-full;
+  }
 }
 
-/* Streaming cursor blink */
+/* ── Message enter animation ────────────────────────────────────────────────── */
+@keyframes msgEnter {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.msg-enter {
+  animation: msgEnter 0.25s ease-out both;
+}
+
+/* ── Welcome screen enter ───────────────────────────────────────────────────── */
+@keyframes welcomeEnter {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.welcome-enter {
+  animation: welcomeEnter 0.4s ease-out both;
+}
+
+/* ── Streaming cursor blink ─────────────────────────────────────────────────── */
 .streaming-cursor {
   display: inline-block;
   margin-left: 2px;
