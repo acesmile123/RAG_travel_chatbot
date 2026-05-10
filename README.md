@@ -1,6 +1,6 @@
-# 🇻🇳 Vietnam Tourism RAG Chatbot
+# Vietnam Tourism RAG Chatbot
 
-<div align="center">
+<div align="left">
 
 ### Retrieval-Augmented Generation (RAG) Chatbot for Vietnamese Tourism Consultation
 
