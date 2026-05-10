@@ -1,4 +1,17 @@
 # Vietnam Tourism RAG Chatbot
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black)
+![Qdrant](https://img.shields.io/badge/Qdrant-VectorDB-DC244C?logo=qdrant&logoColor=white)
+![Llama](https://img.shields.io/badge/Llama-3.3_70B-purple)
+
+![SSE](https://img.shields.io/badge/Streaming-SSE-success)
+![Hybrid Search](https://img.shields.io/badge/Hybrid_Search-Dense+Sparse-blue)
+![CrossEncoder](https://img.shields.io/badge/Reranker-CrossEncoder-red)
+
+</div>
 
 <div align="left">
 
