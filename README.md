@@ -146,7 +146,7 @@ Main stages:
 | LLM | Llama 3.3 70B Versatile |
 | Streaming | Server-Sent Events (SSE) |
 | Data Processing | BeautifulSoup, Markdownify |
-| Quantization Experiments | GPTQ, QLoRA, Unsloth |
+| Quantization Experiments | GPTQ, llm-compressor |
 
 ---
 
