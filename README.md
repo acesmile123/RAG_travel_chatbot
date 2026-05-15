@@ -178,6 +178,17 @@ Main stages:
 ```
 
 ---
+# 🎥 Demo
+
+## 🌐 Live Demo
+
+👉 [Try the Website](https://react-fe-psi.vercel.app/)
+
+---
+
+## 📸 Demo Screenshot
+
+![Vietnam Tourism Chatbot Demo](assets/demo_chatbot.jpg)
 
 # ⚡ Installation
 
