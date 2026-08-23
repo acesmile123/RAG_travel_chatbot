@@ -1,4 +1,4 @@
-# Vietnam Tourism RAG Chatbot
+# Agentic RAG VietNamese Tourism AI Assistant  
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
