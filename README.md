@@ -15,7 +15,7 @@
 
 <div align="left">
 
-### Retrieval-Augmented Generation (RAG) Chatbot for Vietnamese Tourism Consultation
+### Retrieval-Augmented Generation (RAG) Agent for Vietnamese Tourism Consultation
 
 AI-powered tourism assistant built with **FastAPI**, **React**, **Qdrant**, and **Hybrid Retrieval**.
 
